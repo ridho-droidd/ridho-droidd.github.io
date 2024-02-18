@@ -1,0 +1,62 @@
+/* style.css */
+
+/* Reset default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+}
+
+header {
+    background-color: #0b243f; /* Warna header */
+    color: #fff; /* Warna teks header */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+Img{
+max-width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Membuat gambar tetap proporsional */
+    display: block; /* Menghilangkan ruang putih di sekitar gambar */
+    margin: 0 auto; /* Posisikan gambar ke tengah */
+    border-radius: 10px; /* Membuat sudut gambar menjadi melengkung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada gambar */
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+footer {
+    background-color: #343a40; /* Warna footer */
+    color: #fff; /* Warna teks footer */
+    text-align: center;
+    padding: 20px 0;
+}
+
+a {
+    color: #007bff; /* Warna tautan */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
